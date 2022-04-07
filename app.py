@@ -84,7 +84,7 @@ def index():
         s = "The predicted category codes are " + str(pred1) + ", " + str(pred2) + " and " + str(pred3)
         return(render_template("index.html", result = s))
     else:
-        return(render_template("index.html", result = "2"))
+        return(render_template("index.html", result = " "))
 
 
 # In[9]:
